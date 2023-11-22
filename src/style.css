@@ -1,0 +1,98 @@
+:root{
+    --color-txt-nav:#0000FF
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height:auto;
+    display: flex;
+}
+
+header .containerBrand{
+    
+    width: 20%;
+    max-width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+header .containerBrand img{
+    margin-top: 0px;
+    width: 55%;
+    
+}
+
+header .containerItemList{
+    
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header .containerItemList ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+    
+    
+}
+header .containerItemList ul li {
+    margin: 25px;
+    font-size: 20px;
+    color: var(--color-txt-nav);
+    cursor: pointer;
+
+}
+
+
+header .containerCart{
+    margin-top: 10px;
+    width: 5%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header .containerCart .containerLenght{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    
+}
+header .containerCart .containerLenght .cantCart{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-txt-nav);
+    color: white;
+    text-align: center;
+    top: 0;
+    left: 80%;
+    border-radius: 50%;
+
+}
+
+
+header .containerCart img{ 
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
